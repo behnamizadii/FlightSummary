@@ -1,0 +1,5 @@
+20/08/2018 23:36:35
+One or more errors occurred.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FlightSummaryReport.Client.RequestHandler.<GenerateFlightAsync>d__1.MoveNext() in C:\Users\behna\Desktop\FlightSummaryReportService\FlightSummaryReport.Client\RequestHandler.cs:line 35

@@ -1,0 +1,13 @@
+20/08/2018 22:55:06
+One or more errors occurred.
+System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Http.HttpClient'.
+   at System.Net.Http.HttpClient.CheckDisposed()
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.PostAsync(Uri requestUri, HttpContent content, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClientExtensions.PostAsync[T](HttpClient client, String requestUri, T value, MediaTypeFormatter formatter, MediaTypeHeaderValue mediaType, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClientExtensions.PostAsync[T](HttpClient client, String requestUri, T value, MediaTypeFormatter formatter, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClientExtensions.PostAsJsonAsync[T](HttpClient client, String requestUri, T value, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClientExtensions.PostAsJsonAsync[T](HttpClient client, String requestUri, T value)
+   at FlightSummaryReport.Client.RequestHandler.<GenerateFlightAsync>d__0.MoveNext() in C:\Users\behna\Desktop\FlightSummaryReportService\FlightSummaryReport.Client\RequestHandler.cs:line 18

@@ -1,0 +1,5 @@
+20/08/2018 11:01:30
+One or more errors occurred.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 (Not Found).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at FlightSummaryReport.Client.RequestHandler.<GenerateFlightAsync>d__2.MoveNext() in C:\Users\B.izadi\OneDrive - Abstract Inc\FlightSummaryReportService\FlightSummaryReport.Client\RequestHandler.cs:line 26

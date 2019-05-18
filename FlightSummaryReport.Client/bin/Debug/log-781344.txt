@@ -1,0 +1,4 @@
+20/08/2018 21:27:36
+Cannot access a disposed object.
+Object name: 'System.Net.Http.HttpClient'.
+
